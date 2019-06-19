@@ -80,11 +80,11 @@ class Comments extends Component {
                     <NavLink to="/edit-comment" className="btn-edit">
                         Edit
                     </NavLink>
-                    <NavLink to="/delete-comment">
-                        <button className="btn-delete">Delete</button>
+                    <NavLink to="/delete-comment" className="btn-delete">
+                        Delete
                     </NavLink>
-                    <NavLink to="/show-comment">
-                        <button className="btn-show">Show</button>
+                    <NavLink to="/show-comment" className="btn-show">
+                        Show
                     </NavLink>
                 </td>
             </tr>

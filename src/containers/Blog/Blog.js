@@ -12,10 +12,8 @@ class Blog extends Component {
     render() {
         return (
             <div className="Blog">
+                
                 <Switch>
-                <Route>
-                    <Comments />
-                </Route>
                 <Route path="/edit-comment" >
                     <EditComment />
                 </Route>
@@ -30,6 +28,7 @@ class Blog extends Component {
                 </Route>
                 
                 </Switch>
+                <Comments />
             </div>
         );
     }
