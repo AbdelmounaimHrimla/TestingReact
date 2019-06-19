@@ -1,0 +1,37 @@
+.deleteComment .popUp {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 0 2px 2px #dc3545;
+  text-align: center;
+}
+
+.deleteComment .popUp p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.deleteComment .popUp .btn-delete {
+  margin-right: 10px;
+  background: #dc3545;
+  border: 1px solid #dc3545;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  padding: 6px 10px;
+  color: #FFFF;
+  letter-spacing: 1.5px;
+}
+
+.deleteComment .popUp .btn-cancel {
+  margin-right: 10px;
+  background: #28a745;
+  border: 1px solid #28a745;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  padding: 6px 10px;
+  color: #FFFF;
+  letter-spacing: 1.5px;
+}
